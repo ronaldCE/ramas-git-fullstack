@@ -52,3 +52,14 @@ git branch
 git switch desarrollo
 git checkout desarrollo
 ```
+-Modificamos el cogigo fuente
+
+- Luego registrar los cambios con:
+```
+  git add .
+  git commit -m "Nuevo cambio en la rama desarrollo"
+```
+- Luego realizar el git push a github
+```
+git push origin desarrollo
+``` 
